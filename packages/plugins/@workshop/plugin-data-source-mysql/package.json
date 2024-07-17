@@ -1,0 +1,18 @@
+{
+  "name": "@workshop/plugin-data-source-mysql",
+  "displayName": "Data source: MySQL",
+  "displayName.zh-CN": "数据源: MySQL",
+  "description": "MySQL database.",
+  "description.zh-CN": "MySQL数据库。",
+  "version": "1.0.0-alpha.1",
+  "main": "dist/server/index.js",
+  "dependencies": {},
+  "peerDependencies": {
+    "@nocobase/client": "0.x",
+    "@nocobase/server": "0.x",
+    "@nocobase/test": "0.x"
+  },
+  "keywords": [
+    "Data sources"
+  ]
+}

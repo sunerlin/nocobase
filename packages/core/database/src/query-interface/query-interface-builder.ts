@@ -11,9 +11,11 @@ import Database from '../database';
 import MysqlQueryInterface from './mysql-query-interface';
 import PostgresQueryInterface from './postgres-query-interface';
 import SqliteQueryInterface from './sqlite-query-interface';
+import MssqlQueryInterface from './mssql-query-interface';
 
 export default function buildQueryInterface(db: Database) {
   const map = {
+    mssql: MssqlQueryInterface,
     mysql: MysqlQueryInterface,
     mariadb: MysqlQueryInterface,
     postgres: PostgresQueryInterface,
